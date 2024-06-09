@@ -30,7 +30,7 @@ int main() {
 
     std::vector<UniquePtrFactory::PointerType> test_objects;
 
-    for(int i = 0; i < 10; i++>)
+    for(int i = 0; i < 10; i++)
     {
         test_objects.emplace_back(UniquePtrFactory::allocate_unique(pa, i));
     }
